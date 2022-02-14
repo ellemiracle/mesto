@@ -25,4 +25,4 @@ _Цель:  Проект должен корректно отображатьс�
 Написан небольшой скрыпт на языке JavaScript.
 Связана вёрстка и JavaScript.
 
-* [Ссылка на GitHub Pages] (https://ellemiracle.github.io/mesto/Index.html)
+* [Ссылка на GitHub Pages] (https://ellemiracle.github.io/mesto)
