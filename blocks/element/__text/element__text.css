@@ -1,0 +1,10 @@
+.element__text {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    justify-content: space-between;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+    height: 80px;
+}

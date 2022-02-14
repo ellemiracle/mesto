@@ -1,0 +1,10 @@
+.edit-profile {
+    display: flex;
+    height: 24px;
+    width: 24px;
+    background: none;
+    cursor: pointer;
+    grid-area: edit-profile;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
