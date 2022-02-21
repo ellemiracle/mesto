@@ -3,7 +3,7 @@
     height: 50px;
     width: 150px;
     border: 2px solid #fff;
-    background-color: #000;
+    background-color: transparent;
     grid-area: add-button;
     border-radius: 2px;
     box-sizing: border-box;

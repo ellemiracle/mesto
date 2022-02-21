@@ -12,14 +12,15 @@
         <img src="./images/logo.svg" alt="Логотип МЕСТО" class="logo root__logo">
     </header>
 
+    <main>
     <section class="profile root__profile">
         <img src="./images/avatar.jpg" alt="Аватар Кусто" class="profile__avatar">
 	    <h1 class="profile__user-name">Жак-Ив Кусто</h1>
 	    <p class="profile__user-jop">Исследователь океана</p>
-	    <button type="button" class="edit-profile profile__edit-profile">
+	    <button type="button" class="edit-profile">
 	        <img src="./images/icon-edit.svg" alt="Редактировать профиль" class="edit-profile__icon">
 	    </button>
-	    <button type="button" class="add-button profile__add-button">
+	    <button type="button" class="add-button">
 	        <img src="./images/icon-add.svg" alt="Добавить" class="add-button__icon">
 	    </button>
     </section>
@@ -29,15 +30,14 @@
 	    <img src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Карачаевск" class="element__photo">
 	    <div class="element__text">
 	        <h2 class="element__title">Карачаевск</h2>
-		<div class="element__heart"></div>
-	    </div>
+		<button type="button" class="element__heart"></div>
 	</div>
 
 	<div class="element">
 	    <img src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Гора Эльбрус" class="element__photo">
 	    <div class="element__text">
 	        <h2 class="element__title">Гора Эльбрус</h2>
-		<div class="element__heart"></div>
+		<button type="button" class="element__heart">
 	    </div>
 	</div>
 
@@ -45,7 +45,7 @@
 	    <img src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Домбай" class="element__photo">
 	    <div class="element__text">
 		<h2 class="element__title">Домбай</h2>
-		<div class="element__heart"></div>
+		<button type="button" class="element__heart">
 	    </div>
 	</div>
 
@@ -53,7 +53,7 @@
 	    <img src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Гора Эльбрус" class="element__photo">
 	    <div class="element__text">
 	        <h2 class="element__title">Гора Эльбрус</h2>
-		<div class="element__heart"></div>
+		<button type="button" class="element__heart">
 	    </div>
 	</div>
 
@@ -61,7 +61,7 @@
 	    <img src="./images/kirill-pershin-1556355-unsplash.jpg" alt="фото" class="element__photo">
 	    <div class="element__text">
 		<h2 class="element__title">Домбай</h2>
-		<div class="element__heart"></div>
+		<button type="button" class="element__heart">
 	    </div>
 	</div>
 
@@ -69,22 +69,23 @@
 	    <img src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Карачаево-Черкессия" class="element__photo">
 	    <div class="element__text">
 		<h2 class="element__title">Карачаево-Черкессия</h2>
-		<div class="element__heart"></div>
+		<button type="button" class="element__heart">
 	    </div>
 	</div>
     </section>
+    </main>
 
     <footer class="footer root__footer">
         <p class="footer__copyright">&#64; 2022 Mesto Russia</p>
     </footer>
 
-    <div class="popup popup_opened">
+    <div class="popup popup__hidden">
         <section class="popup__window">
-	    <button class="popup__close-button"></button>
-	    <form class="popup__form">
+	    <button class="popup__close-button" type="submit"></button>
+	    <form class="popup__form" name="form">
 	        <h3 class="popup__title">Редактировать профиль</h3>
-		<input type="text" name="user-name" class="popup__user-name">
-		<input type="text" name="user-jop" class="popup__user-jop">
+		<input type="text" name="user-name" class="user-name popup__user-name">
+		<input type="text" name="user-name" class="user-name popup__user-jop">
 		<button type="submit" class="popup__save-button">Сохранить</button>
 	    </form>
         </section>

@@ -6,11 +6,12 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+    line-height: 17px;
 }
 
 @media (max-width: 740px) {
 	.profile__user-jop {
-	    margin: -15px 0 0;
+	    margin: 15px 0 0;
 	}
 }
 

@@ -17,7 +17,6 @@
 	    "profile__avatar profile__user-jop edit-profile"
 	    "add-button add-button add-button";
 	    max-width: 581px;
-	    height: 190px;
 	    grid-template-columns: 150px 312px 1fr;
 	    grid-template-rows: 90px 30px 70px;
 	}
@@ -27,7 +26,6 @@
 @media (max-width: 680px) {
 	.profile {
 	    width: 282px;
-	    height: 286px;
 	    grid-template-areas: 
 	    "profile__avatar profile__avatar profile__avatar"
 	    "null profile__user-name edit-profile"
