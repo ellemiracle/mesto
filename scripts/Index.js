@@ -1,4 +1,4 @@
-const popup = document.querySelector('.popup'); //переменная для всего popup
+const popup = document.querySelector('.popup'); //переменная для всего popup.
 const profileEditButton = document.querySelector('.profile__edit-button');
 const popupExitButton = popup.querySelector('.popup__exit-button');
 const formElement = document.querySelector('.popup__form');
