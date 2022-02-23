@@ -1,4 +1,4 @@
-const popup = document.querySelector('.popup');
+const popup = document.querySelector('.popup'); //переменная для всего popup
 const profileEditButton = document.querySelector('.profile__edit-button');
 const popupExitButton = popup.querySelector('.popup__exit-button');
 const formElement = document.querySelector('.popup__form');
@@ -21,4 +21,6 @@ function formSubmitHandler (evt) {
   popupToggle();
 }
 
+// Прикрепляем обработчик к форме:
+// он будет следить за событием “submit” - «отправка»
 formElement.addEventListener('submit', formSubmitHandler);
