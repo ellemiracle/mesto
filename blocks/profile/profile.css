@@ -1,38 +1,31 @@
+@import url('__avatar/profile__avatar.css');
+@import url('__info/profile__info.css');
+@import url('__name/profile__name.css');
+@import url('__description/profile__description.css');
+@import url('__edit-button/profile__edit-button.css');
+@import url('__add-button/profile__add-button.css');
+@import url('__title/profile__title.css');
+
+
 .profile {
-    display: grid;
-    max-width: 880px;
-    height: 120px;
-    grid-template-areas: 
-    "profile__avatar profile__user-name edit-profile add-button"
-    "profile__avatar profile__user-jop edit-profile add-button";
-    grid-template-columns: 150px 312px 1fr 150px;
-    grid-template-rows: 72px 1fr;
+  max-width: 882px;
+  margin: 40px auto 0;
+  display: flex;
+  flex-direction: row;
 }
 
 
-@media (max-width: 740px) {
-	.profile {
-	    grid-template-areas: 
-	    "profile__avatar profile__user-name edit-profile"
-	    "profile__avatar profile__user-jop edit-profile"
-	    "add-button add-button add-button";
-	    max-width: 581px;
-	    grid-template-columns: 150px 312px 1fr;
-	    grid-template-rows: 90px 30px 70px;
-	}
+@media screen and (max-width: 1100px) {
+  .profile {
+    max-width: 700px;  
+    margin: 40px auto 0;
+  }
 }
 
-
-@media (max-width: 680px) {
-	.profile {
-	    width: 282px;
-	    grid-template-areas: 
-	    "profile__avatar profile__avatar profile__avatar"
-	    "null profile__user-name edit-profile"
-	    "profile__user-jop profile__user-jop profile__user-jop"
-	    "add-button add-button add-button";
-	    grid-template-columns: 1fr 189px 1fr;
-	    grid-template-rows: 140px 1fr 1fr 50px;
-	}
+@media screen and (max-width: 767px) {
+  .profile {
+    max-width: 320px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
-
