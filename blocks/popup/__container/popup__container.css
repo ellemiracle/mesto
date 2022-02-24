@@ -16,14 +16,11 @@
   .popup__container {
     width: 320px;
     height: 430px;
-    
   }
 }
 
 /* @media screen and (max-width: 319px) {
   .popup__container {
     width: 100%;
-    
-    
   }
 } */
