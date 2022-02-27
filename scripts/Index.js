@@ -2,8 +2,8 @@ const popup = document.querySelector('.popup'); //переменная для в
 const profileEditButton = document.querySelector('.profile__edit-button');
 const popupExitButton = popup.querySelector('.popup__exit-button');
 const formElement = document.querySelector('.popup__form');
-const popupFieldName = popup.querySelector('.popup__field__input_name');
-const popupFieldDescription = popup.querySelector('.popup__field__input_description');
+const popupFieldName = popup.querySelector('.popup__field_input_name');
+const popupFieldDescription = popup.querySelector('.popup__field_input_description');
 const profileName = document.querySelector('.profile__name');
 const profileDescription = document.querySelector('.profile__description');
 
