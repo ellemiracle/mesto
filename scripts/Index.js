@@ -20,8 +20,8 @@ const popupOpen = function() {
   popup.classList.add('popup_opened');
   
   //2 метода ниже добавляют в форму попапа содержимое из профиля
-  popupFieldName.value = profileName.innerHTML;
-  popupFieldDescription.value = profileDescription.innerHTML;
+  popupFieldName.value = profileName.textContent;
+  popupFieldDescription.value = profileDescription.textContent;
 }
 
 const popupClose = function() {
